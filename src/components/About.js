@@ -11,11 +11,11 @@ function showName (data) {
 };
 
 function verifyCity(input) {
-  const op = input == city;
+  // const op = input == city;
 
   return (
     <div>
-      <p> we realise: {op ? `you are from ${input}` : "sorry, data not matching" } </p>
+      <p> we realise: {input == city ? `you are from ${input}` : "sorry, data not matching" } </p>
     </div>
   )
 };
